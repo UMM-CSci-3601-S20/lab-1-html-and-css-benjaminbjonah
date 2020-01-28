@@ -34,6 +34,13 @@ body {
   align-items: center;
 }
 
+.link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+
 #main-title {
     color: #FFDE7A;
     font-family: 'Patua One', monospace;
@@ -69,6 +76,11 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+
+#link {
+  background-color: #FFDE7B;
+  font-family: 'Marcellus', sans-serif;
 }
 
 #faculty>ul>li {
