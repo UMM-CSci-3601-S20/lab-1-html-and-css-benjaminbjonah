@@ -36,7 +36,7 @@ body {
 
 .link-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: right;
   align-items: center;
 }
@@ -78,15 +78,19 @@ h2 {
     align-content: center;
 }
 
+#faculty>ul>li {
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
 #link-space {
   background-color: #FFDE7B;
   font-family: 'Marcellus', sans-serif;
 }
 
-#faculty>ul>li {
-    display: inline-block;
-    font-family: sans-serif;
-    padding: 30px;
+#link-space>ul {
+  display: inline-block;
 }
 
 #faculty-list {
@@ -107,7 +111,20 @@ h2 {
 }
 
 .office {
-  font-family: 'Marcellus', sans-sans-serif;;
+  font-family: 'Marcellus', sans-sans-serif;
+}
+
+.cloud {
+  font-style: oblique;
+}
+
+.version-control{
+}
+
+.ide {
+}
+
+.testing {
 }
 
 img.pic {
