@@ -37,7 +37,7 @@ body {
 .link-container {
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
 }
 
@@ -49,6 +49,10 @@ body {
 }
 
 h2 {
+    font-family: 'EB Garamond', serif;
+}
+
+h3 {
     font-family: 'EB Garamond', serif;
 }
 
@@ -85,12 +89,12 @@ h2 {
 }
 
 #link-space {
-  background-color: #FFDE7B;
+  background-color: #FFDE7A;
   font-family: 'Marcellus', sans-serif;
 }
 
 #link-space>ul {
-  display: inline-block;
+  display: table;
 }
 
 #faculty-list {
