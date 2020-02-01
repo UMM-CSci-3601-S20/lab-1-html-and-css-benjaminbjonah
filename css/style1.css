@@ -34,6 +34,13 @@ body {
   align-items: center;
 }
 
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 #main-title {
     color: #FFDE7A;
     font-family: 'Patua One', monospace;
@@ -42,6 +49,10 @@ body {
 }
 
 h2 {
+    font-family: 'EB Garamond', serif;
+}
+
+h3 {
     font-family: 'EB Garamond', serif;
 }
 
@@ -77,6 +88,15 @@ h2 {
     padding: 30px;
 }
 
+#link-space {
+  background-color: #FFDE7A;
+  font-family: 'Marcellus', sans-serif;
+}
+
+#link-space>ul {
+  display: table;
+}
+
 #faculty-list {
     padding-left: 0;
     display: flex;
@@ -95,7 +115,20 @@ h2 {
 }
 
 .office {
-  font-family: 'Marcellus', sans-sans-serif;;
+  font-family: 'Marcellus', sans-sans-serif;
+}
+
+.cloud {
+  font-style: oblique;
+}
+
+.version-control{
+}
+
+.ide {
+}
+
+.testing {
 }
 
 img.pic {
