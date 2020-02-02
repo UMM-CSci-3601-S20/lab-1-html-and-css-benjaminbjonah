@@ -13,6 +13,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image:url(
+    ///home/burge337/Pictures/pngtree-cartoon-ocean-underwater-world-image_166588.jpg
+    )
+    
 }
 
 @media screen and (min-width: 925px) {
@@ -22,15 +26,33 @@ body{
     max-width: 53em;
   }
 }
+@media screen and (min-width: 1920px) {
+    .link-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        top: 40%;
+      }
+      .faculty-container {
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      #validation{
+
+      }
+}
 
 .faculty-container {
   display: flex;
-  flex-direction: row;
-  justify-content: left;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  position: fixed;
-  left: 0;
-  top: 0;
 }
 
 .card{
@@ -45,11 +67,8 @@ body{
 .link-container {
   display: flex;
   flex-direction: row;
-  justify-content: right;
-  align-items: right;
-  position: fixed;
-  right: 0;
-  top: 40%;
+  justify-content: center;
+  align-items: center;
 }
 
 #main-title {
@@ -69,15 +88,13 @@ h3 {
 }
 
 #courses {
-  background-color: #FFDE7A;
-  font-family: 'Marcellus', sans-serif;
-  font-size: 2rem;
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
 }
 
 #pslo {
-  background-color: #d5d6d2;
-  font-family: 'Marcellus', sans-serif;
-  font-size: 2rem;
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
 }
 
 #faculty {
@@ -89,6 +106,7 @@ h3 {
 
 #link-space>ul {
   display: table;
+  font-size: 1rem;
 }
 
 .name {
@@ -97,7 +115,7 @@ h3 {
 }
 
 .office {
-  font-family: 'Marcellus', sans-sans-serif;
+  font-family: 'Georgia', sans-sans-serif;
 }
 
 .cloud {
@@ -112,8 +130,6 @@ img.pic {
 
 #validation {
 font-size: 80%;
-background-color: #d5d6d2;
 padding: 25px;
-position: relative;
 }
 
